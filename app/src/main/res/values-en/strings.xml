@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyTips</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+    <string name="about_version">Version 1.0.0</string>
+    <string name="about_text">This application has been designed as a tool to calculate the cost sharing among several people. \nThis tool is provided as is without warranty. We are not responsible for any damage caused by this software from its use or fitness for a particular purpose. \nAll rights reserved.</string>
+    <string name="bill">Bill</string>
+    <string name="hint_bill">Amount to pay</string>
+    <string name="nPersons">Number of Involved</string>
+    <string name="nTpersons">Individual Amount</string>
+    <string name="tip">Tip</string>
+    <string name="r4">Other</string>
+    <string name="result">Results</string>
+    <string name="tipPerson">Tip per Person</string>
+    <string name="tipTotal">Total Tip</string>
+    <string name="totalBill">Account Amount</string>
+    <string name="totalPersona">Total per Person</string>
+    <string name="SIva">IVA</string>
+    <string name="gTotal">Total</string>
+
+    <string name="prefCatTip">My Tip</string>
+    <string name="prefCatTipDes">Customizing tip</string>
+    <string name="preferencePercent">Tip</string>
+    <string name="preferencePercentDes">Select tip percentage</string>
+    <string name="preferencePercentDialog">Enter tip percentage</string>
+
+
+    <string name="prefCatIva">Value-Added Tax</string>
+    <string name="prefCatDesIva">Customizing TAX</string>
+    <string name="preferenceShowIva">IVA</string>
+    <string name="preferenceShowIvaDes">Show calculation of IVA</string>
+    <string name="preferenceValueIva">IVA percentage</string>
+    <string name="preferenceValuesIvaDes">Percentage</string>
+    <string name="preferenceValuesIvaDialog">Enter the percentage of Iva</string>
+    <string name="prefOrderIva">TAX Calculation</string>
+    <string name="prefOrderIvaDes">Select time when IVA is calculated</string>
+    <string name="prefOrderIvaDialog">Indicates IVA calculation order</string>
+    <string name="order1">Before</string>
+    <string name="order2">After</string>
+
+    <string name="prefCatResults">Results</string>
+    <string name="prefCatResP">Individual tip</string>
+    <string name="prefCatResPDes">Individual contribution tip without counting</string>
+    <string name="prefCatResPT">Tip Total</string>
+    <string name="prefCatResPTDes">Tip provided by all involved</string>
+    <string name="prefCatResM">Individual Amount</string>
+    <string name="prefCatResMT">Total Amount</string>
+    <string name="prefCatResMTDes">Total contribution by each involved</string>
+    <string name="prefCatResTT">Total</string>
+    <string name="prefCatResTTDes">Total to pay</string>
+
+    <string name="prefCatCustom">Customization</string>
+    <string name="PresCatDesCustom">Application Customization</string>
+    <string name="preferenceOrientation">Orientation</string>
+    <string name="preferenceOrientationDes">Autorotate</string>
+    <string name="preferenceSave">Save</string>
+    <string name="preferenceSaveDes">AutoSave</string>
+    <string name="preferenceLanguage">Language</string>
+    <string name="preferenceLanguageDes">Select language</string>
+
+    <string name="L1">Spanish</string>
+    <string name="L2">English</string>
+    <string name="catchError1">Enter payment amount</string>
+    <string name="catchError2">The minimum is one involved</string>
+    <string name="catchError3">Could not send the message</string>
+
+    <string name="sms1">We will pay $</string>
+    <string name="sms2">, $ tip</string>
+    <string name="sms3">and the bill $</string>
+
+    <string name="dialogClear">Clear</string>
+    <string name="dialogDel">Del</string>
+    <string name="dialogCancel">Cancel</string>
+    <string name="dialogOk">OK</string>
+    <string name="prefCatResMDes">Individual contribution to the account without tip</string>
+
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="preferenceMain"
+    android:title="@string/app_name">
+    <PreferenceCategory
+        android:summary="@string/prefCatTipDes"
+        android:title="@string/prefCatTip">
+        <ListPreference
+            android:defaultValue="1"
+            android:dialogTitle="@string/preferencePercentDialog"
+            android:entries="@array/ShowPercent"
+            android:entryValues="@array/ValuesPercent"
+            android:key="defaultPercent"
+            android:summary="@string/preferencePercentDes"
+            android:title="@string/preferencePercent" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:summary="@string/prefCatDesIva"
+        android:title="@string/prefCatIva">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="defaultShowIva"
+            android:summary="@string/preferenceShowIvaDes"
+            android:title="@string/preferenceShowIva" />
+        <EditTextPreference
+            android:defaultValue="15"
+            android:maxLines="1"
+            android:maxLength="2"
+            android:inputType="number"
+            android:dialogTitle="@string/preferenceValuesIvaDialog"
+            android:key="defaultValueIva"
+            android:summary="@string/preferenceValuesIvaDes"
+            android:title="@string/preferenceValueIva" />
+        <ListPreference
+            android:defaultValue="1"
+            android:dialogTitle="@string/prefOrderIvaDialog"
+            android:entries="@array/OrderIVA"
+            android:entryValues="@array/ValuesOrderIVA"
+            android:key="defaultOrderIva"
+            android:summary="@string/prefOrderIvaDes"
+            android:title="@string/prefOrderIva"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:summary=""
+        android:title="@string/prefCatResults">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="defaultShowP"
+            android:summary="@string/prefCatResPDes"
+            android:title="@string/prefCatResP" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="defaultShowPT"
+            android:summary="@string/prefCatResPTDes"
+            android:title="@string/prefCatResPT" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="defaultShowM"
+            android:summary="@string/prefCatResMDes"
+            android:title="@string/prefCatResM" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="defaultShowMT"
+            android:summary="@string/prefCatResMTDes"
+            android:title="@string/prefCatResMT" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="defaultShowTT"
+            android:summary="@string/prefCatResTTDes"
+            android:title="@string/prefCatResTT" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:summary="@string/PresCatDesCustom"
+        android:title="@string/prefCatCustom">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="defaultSave"
+            android:summary="@string/preferenceSaveDes"
+            android:title="@string/preferenceSave" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="defaultOrientation"
+            android:summary="@string/preferenceOrientationDes"
+            android:title="@string/preferenceOrientation" />
+        <ListPreference
+            android:entries="@array/ShowLanguage"
+            android:entryValues="@array/ValuesLanguage"
+            android:key="defaultLanguage"
+            android:summary="@string/preferenceLanguageDes"
+            android:title="@string/preferenceLanguage" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,121 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="ES">
+    <string name="app_name">MyTips</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="action_about">Acerca de &#8230;</string>
+    <string name="about_version">Versión 1.0.0</string>
+    <string name="about_text">Esta aplicación ha sido ideada como una herramienta que permita calcular el reparto de un costo entre varias personas.\nEstá herramienta se entrega tal cual, sin garantías. No nos hacemos responsables de ningún daño producido por este software derivado de su uso o adecuación a un propósito particular.\nTodos los derechos reservados.</string>
+    <string name="bill">Cuenta</string>
+    <string name="hint_bill">Monto a Pagar</string>
+    <string name="nPersons">No. de Involucrados</string>
+    <string name="nTpersons">Personas</string>
+    <string name="nPMin" translatable="false">-</string>
+    <string name="vTPersons" translatable="false">1</string>
+    <string name="nPMax" translatable="false">+</string>
+    <string name="tip">Propina</string>
+    <string name="r1" translatable="false">10 %</string>
+    <string name="r2" translatable="false">15 %</string>
+    <string name="r3" translatable="false">20 %</string>
+    <string name="r4">Otro</string>
+    <string name="result">Resultados</string>
+    <string name="tipPerson">Propina por Persona</string>
+    <string name="tipTotal">Propina Total</string>
+    <string name="totalBill">Monto de Cuenta</string>
+    <string name="totalPersona">Total por Persona</string>
+    <string name="SIva">IVA</string>
+    <string name="gTotal">Total</string>
+
+    <string name="prefCatTip">Mi Propina</string>
+    <string name="prefCatTipDes">Personalización de propina</string>
+    <string name="preferencePercent">Propina</string>
+    <string name="preferencePercentDes">Seleccionar porcentaje de propina</string>
+    <string name="preferencePercentDialog">Indica porcentaje de propina</string>
+    <string-array name="ShowPercent">
+        <item>@string/r1</item>
+        <item>@string/r2</item>
+        <item>@string/r3</item>
+        <item>@string/r4</item>
+    </string-array>
+    <string-array name="ValuesPercent">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string name="prefCatIva">Impuesto al Valor Agregado</string>
+    <string name="prefCatDesIva">Personalización de Iva</string>
+    <string name="preferenceShowIva">IVA</string>
+    <string name="preferenceShowIvaDes">Mostrar cálculo del IVA</string>
+    <string name="preferenceValueIva">Porcentaje de IVA</string>
+    <string name="preferenceValuesIvaDes">Porcentaje</string>
+    <string name="preferenceValuesIvaDialog">Introduzca el porcentaje de Iva</string>
+    <string name="prefOrderIva">Calculo del IVA</string>
+    <string name="prefOrderIvaDes">Seleccionar momento en que se calcula el IVA</string>
+    <string name="prefOrderIvaDialog">Indica orden de calculo de IVA</string>
+    <string name="order1">Antes</string>
+    <string name="order2">Después</string>
+    <string-array name="OrderIVA">
+        <item>@string/order1</item>
+        <item>@string/order2</item>
+    </string-array>
+    <string-array name="ValuesOrderIVA">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="prefCatResults">Resultados</string>
+    <string name="prefCatResP">Propina Individual</string>
+    <string name="prefCatResPDes">Aportación individual a la propina sin la cuenta</string>
+    <string name="prefCatResPT">Propina Total</string>
+    <string name="prefCatResPTDes">Propina aportada por todos los involucrados</string>
+    <string name="prefCatResM">Monto Individual</string>
+    <string name="prefCatResMDes">Aportación individual a la cuenta sin propina</string>
+    <string name="prefCatResMT">Monto Total</string>
+    <string name="prefCatResMTDes">Aportación total por cada involucrado</string>
+    <string name="prefCatResTT">Total</string>
+    <string name="prefCatResTTDes">Total a Pagar</string>
+
+    <string name="prefCatCustom">Personalización</string>
+    <string name="PresCatDesCustom">Personalización de la aplicación</string>
+    <string name="preferenceOrientation">Orientación</string>
+    <string name="preferenceOrientationDes">Giro Autómatico</string>
+    <string name="preferenceSave">Guardar</string>
+    <string name="preferenceSaveDes">Auto Guardar</string>
+    <string name="preferenceLanguage">Idioma</string>
+    <string name="preferenceLanguageDes">Seleccionar idioma</string>
+    <string-array name="ShowLanguage">
+        <item>@string/L1</item>
+        <item>@string/L2</item>
+    </string-array>
+    <string-array name="ValuesLanguage">
+        <item>ESP</item>
+        <item>ING</item>
+    </string-array>
+    <string name="L1">Español</string>
+    <string name="L2">Ingles</string>
+    <string name="catchError1">Introduzca monto a pagar</string>
+    <string name="catchError2">El mínimo de involucrados es 1</string>
+    <string name="catchError3">No se pudo enviar el Mensaje</string>
+
+    <string name="sms">Nos tocan %1$s, de propina %2$s y de la cuenta %3$s.</string>
+    <string name="sms1">Nos tocan $</string>
+    <string name="sms2">, de propina $</string>
+    <string name="sms3">y de la cuenta $</string>
+
+    <string name="dialog1" translatable="false">1</string>
+    <string name="dialog2" translatable="false">2</string>
+    <string name="dialog3" translatable="false">3</string>
+    <string name="dialog4" translatable="false">4</string>
+    <string name="dialog5" translatable="false">5</string>
+    <string name="dialog6" translatable="false">6</string>
+    <string name="dialog7" translatable="false">7</string>
+    <string name="dialog8" translatable="false">8</string>
+    <string name="dialog9" translatable="false">9</string>
+    <string name="dialog0" translatable="false">0</string>
+    <string name="dialogClear">Limpiar</string>
+    <string name="dialogDel">Borrar</string>
+    <string name="dialogCancel">Cancelar</string>
+    <string name="dialogOk">Asignar</string>
+
+</resources>
+

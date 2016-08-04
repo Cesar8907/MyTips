@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/et_EnterValueBill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:hint="@null"
+            android:focusable="false"
+            android:maxLength="9"
+            android:gravity="end"
+            android:textSize="@dimen/sizeText"/>
+        <EditText
+            android:id="@+id/et_EnterValuePersons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:hint="@null"
+            android:focusable="false"
+            android:maxLength="4"
+            android:gravity="end"
+            android:textSize="@dimen/sizeText"/>
+    </LinearLayout>
+
+    <TableRow
+        android:id="@+id/TRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            style="@style/Button"
+            android:id="@+id/btn7"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="@string/dialog7"
+            android:textSize="@dimen/sizeText"/>
+
+        <Button
+            style="@style/Button"
+            android:id="@+id/btn8"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="@string/dialog8"
+            android:textSize="@dimen/sizeText"/>
+
+        <Button
+            style="@style/Button"
+            android:id="@+id/btn9"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="@string/dialog9"
+            android:textSize="@dimen/sizeText"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            style="@style/Button"
+            android:id="@+id/btn4"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="@string/dialog4"
+            android:textSize="@dimen/sizeText"/>
+
+        <Button
+            style="@style/Button"
+            android:id="@+id/btn5"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="@string/dialog5"
+            android:textSize="@dimen/sizeText"/>
+
+        <Button
+            style="@style/Button"
+            android:id="@+id/btn6"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="@string/dialog6"
+            android:textSize="@dimen/sizeText"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            style="@style/Button"
+            android:id="@+id/btn1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="@string/dialog1"
+            android:textSize="@dimen/sizeText"/>
+
+        <Button
+            style="@style/Button"
+            android:id="@+id/btn2"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="@string/dialog2"
+            android:textSize="@dimen/sizeText"/>
+
+        <Button
+            style="@style/Button"
+            android:id="@+id/btn3"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="@string/dialog3"
+            android:textSize="@dimen/sizeText"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            style="@style/Button"
+            android:id="@+id/btnClear"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="@string/dialogClear"
+            android:textSize="@dimen/sizeText"
+            android:textAllCaps="false"/>
+
+        <Button
+            style="@style/Button"
+            android:id="@+id/btn0"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="@string/dialog0"
+            android:textSize="@dimen/sizeText"/>
+
+        <Button
+            style="@style/Button"
+            android:id="@+id/btnDel"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="@string/dialogDel"
+            android:textSize="@dimen/sizeText"
+            android:textAllCaps="false"/>
+    </TableRow>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            style="@style/Button"
+            android:id="@+id/btn_Cancel"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="@string/dialogCancel"
+            android:textSize="@dimen/sizeText"
+            android:textAllCaps="false"/>
+        <Button
+            style="@style/Button"
+            android:id="@+id/btn_Ok"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="@string/dialogOk"
+            android:textSize="@dimen/sizeText"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+</TableLayout>
